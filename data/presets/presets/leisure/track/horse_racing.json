@@ -1,0 +1,37 @@
+{
+    "icon": "maki-horse-riding",
+    "fields": [
+        "surface",
+        "sport_racing_nonmotor",
+        "lit",
+        "width",
+        "lanes"
+    ],
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "tags": {
+        "leisure": "track",
+        "sport": "horse_racing"
+    },
+    "addTags": {
+        "leisure": "track",
+        "sport": "horse_racing",
+        "highway": "bridleway"
+    },
+    "removeTags": {
+        "leisure": "track",
+        "sport": "horse_racing",
+        "highway": "bridleway"
+    },
+    "terms": [
+        "equestrian race track",
+        "horse race betting",
+        "horseracing",
+        "horsetrack",
+        "horse racetrack"
+    ],
+    "name": "Horse Racing Track"
+}

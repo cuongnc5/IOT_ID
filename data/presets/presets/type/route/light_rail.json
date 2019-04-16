@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-light_rail",
+    "fields": [
+        "name",
+        "ref_route",
+        "operator",
+        "network",
+        "to",
+        "from"
+    ],
+    "moreFields" : [
+        "colour",
+        "interval",
+        "opening_hours",
+        "duration",
+        "wheelchair"
+    ],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "type": "route",
+        "route": "light_rail"
+    },
+    "name": "Light Rail Route"
+}

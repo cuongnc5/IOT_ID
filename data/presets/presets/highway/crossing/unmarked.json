@@ -1,0 +1,27 @@
+{
+    "fields": [
+        "crossing",
+        "tactile_paving"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "addTags": {
+        "highway": "crossing",
+        "crossing": "unmarked"
+    },
+    "removeTags": {
+        "highway": "crossing",
+        "crossing": "unmarked"
+    },
+    "tags": {
+        "highway": "crossing"
+    },
+    "reference": {
+        "key": "highway",
+        "value": "crossing"
+    },
+    "terms": [],
+    "matchScore": 0.95,
+    "name": "Unmarked Crossing"
+}

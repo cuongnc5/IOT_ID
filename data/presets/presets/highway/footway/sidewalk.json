@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-pedestrian",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "footway": "sidewalk"
+    },
+    "addTags": {
+        "highway": "footway",
+        "footway": "sidewalk"
+    },
+    "removeTags": {
+        "highway": "footway",
+        "footway": "sidewalk"
+    },
+    "reference": {
+        "key": "footway",
+        "value": "sidewalk"
+    },
+    "terms": [
+        "pavement",
+        "sidepath"
+    ],
+    "name": "Sidewalk"
+}

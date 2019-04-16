@@ -1,0 +1,38 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "ref_platform",
+        "network",
+        "operator",
+        "departures_board",
+        "surface"
+    ],
+    "moreFields": [
+        "lit",
+        "wheelchair"
+    ],
+    "geometry": [
+        "line",
+        "area"
+    ],
+    "tags": {
+        "public_transport": "platform"
+    },
+    "addTags": {
+        "public_transport": "platform",
+        "highway": "footway"
+    },
+    "removeTags": {
+        "public_transport": "platform",
+        "highway": "footway"
+    },
+    "terms": [
+        "platform",
+        "public transit",
+        "public transportation",
+        "transit",
+        "transportation"
+    ],
+    "name": "Transit Platform",
+    "matchScore": 0.2
+}

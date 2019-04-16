@@ -1,0 +1,22 @@
+{
+    "icon": "iD-highway-service",
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "service": "parking_aisle"
+    },
+    "addTags": {
+        "highway": "service",
+        "service": "parking_aisle"
+    },
+    "removeTags": {
+        "highway": "service",
+        "service": "parking_aisle"
+    },
+    "reference": {
+        "key": "service",
+        "value": "parking_aisle"
+    },
+    "name": "Parking Aisle"
+}

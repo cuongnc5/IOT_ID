@@ -1,0 +1,30 @@
+{
+    "icon": "maki-suitcase",
+    "fields": [
+        "name",
+        "office",
+        "address",
+        "building_area",
+        "opening_hours"
+    ],
+    "moreFields": [
+        "air_conditioning",
+        "operator",
+        "smoking",
+        "website",
+        "phone",
+        "email",
+        "fax",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "office": "*"
+    },
+    "terms": [],
+    "name": "Office"
+}

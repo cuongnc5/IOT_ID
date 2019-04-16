@@ -1,0 +1,36 @@
+{
+    "icon": "maki-bar",
+    "fields": [
+        "name",
+        "address",
+        "building_area",
+        "outdoor_seating",
+        "brewery"
+    ],
+    "moreFields": [
+        "air_conditioning",
+        "email",
+        "fax",
+        "microbrewery",
+        "opening_hours",
+        "payment_multi",
+        "phone",
+        "smoking",
+        "website",
+        "wheelchair"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+        "dive",
+        "beer",
+        "bier",
+        "booze"
+    ],
+    "tags": {
+        "amenity": "bar"
+    },
+    "name": "Bar"
+}

@@ -1,0 +1,20 @@
+{
+    "icon": "iD-waterway-canal",
+    "fields": [
+        "name",
+        "width",
+        "intermittent",
+        "lock"
+    ],
+    "moreFields": [
+        "salt",
+        "tidal"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "waterway": "canal"
+    },
+    "name": "Canal"
+}

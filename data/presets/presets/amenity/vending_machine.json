@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-vending_machine",
+    "fields": [
+        "vending",
+        "operator",
+        "payment_multi",
+        "currency_multi"
+    ],
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "amenity": "vending_machine"
+    },
+    "matchScore": 0.9,
+    "name": "Vending Machine"
+}

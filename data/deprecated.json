@@ -1,0 +1,635 @@
+{
+  "dataDeprecated": [
+    {
+      "old": {"aerialway": "canopy"},
+      "replace": {"aerialway": "zip_line"}
+    },
+    {
+      "old": {"amenity": "advertising"},
+      "replace": {"advertising": "*"}
+    },
+    {
+      "old": {"amenity": "artwork"},
+      "replace": {"tourism": "artwork"}
+    },
+    {
+      "old": {"amenity": "car_repair"},
+      "replace": {"shop": "car_repair"}
+    },
+    {
+      "old": {"amenity": "citymap_post"},
+      "replace": {"tourism": "information"}
+    },
+    {
+      "old": {"amenity": "community_center"},
+      "replace": {"amenity": "community_centre"}
+    },
+    {
+      "old": {"amenity": "dog_bin"},
+      "replace": {"amenity": "waste_basket", "waste": "dog_excrement"}
+    },
+    {
+      "old": {"amenity": "dog_waste_bin"},
+      "replace": {"amenity": "waste_basket", "waste": "dog_excrement"}
+    },
+    {
+      "old": {"amenity": "embassy"},
+      "replace": {"office": "diplomatic"}
+    },
+    {
+      "old": {"amenity": "ev_charging"},
+      "replace": {"amenity": "charging_station"}
+    },
+    {
+      "old": {"amenity": "fire_hydrant"},
+      "replace": {"emergency": "fire_hydrant"}
+    },
+    {
+      "old": {"amenity": "firepit"},
+      "replace": {"leisure": "firepit"}
+    },
+    {
+      "old": {"amenity": "garage"},
+      "replace": {"landuse": "garages"}
+    },
+    {
+      "old": {"amenity": "garages"},
+      "replace": {"landuse": "garages"}
+    },
+    {
+      "old": {"amenity": "gym"},
+      "replace": {"leisure": "fitness_centre"}
+    },
+    {
+      "old": {"amenity": "hotel"},
+      "replace": {"tourism": "hotel"}
+    },
+    {
+      "old": {"amenity": "kiosk"},
+      "replace": {"shop": "kiosk"}
+    },
+    {
+      "old": {"amenity": "nursery"},
+      "replace": {"amenity": "kindergarten"}
+    },
+    {
+      "old": {"amenity": "preschool"},
+      "replace": {"amenity": "kindergarten"}
+    },
+    {
+      "old": {"amenity": "public_building"},
+      "replace": {"building": "public"}
+    },
+    {
+      "old": {"amenity": "real_estate"},
+      "replace": {"office": "estate_agent"}
+    },
+    {
+      "old": {"amenity": "register_office"},
+      "replace": {"office": "government", "government": "register_office"}
+    },
+    {
+      "old": {"amenity": "sauna"},
+      "replace": {"leisure": "sauna"}
+    },
+    {
+      "old": {"amenity": "scrapyard"},
+      "replace": {"landuse": "industrial", "industrial": "scrap_yard"}
+    },
+    {
+      "old": {"amenity": "shop"},
+      "replace": {"shop": "*"}
+    },
+    {
+      "old": {"amenity": "sloped_curb"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"amenity": "swimming_pool"},
+      "replace": {"leisure": "swimming_pool"}
+    },
+    {
+      "old": {"amenity": "ticket_booth"},
+      "replace": {"shop": "ticket"}
+    },
+    {
+      "old": {"amenity": "toilet"},
+      "replace": {"amenity": "toilets"}
+    },
+    {
+      "old": {"amenity": "vending_machine", "vending": "news_papers"},
+      "replace": {"amenity": "vending_machine", "vending": "newspapers"}
+    },
+    {
+      "old": {"amenity": "winery"},
+      "replace": {"craft": "winery"}
+    },
+    {
+      "old": {"amenity": "youth_center"},
+      "replace": {"amenity": "community_centre", "community_centre:for": "juvenile"}
+    },
+    {
+      "old": {"amenity": "youth_centre"},
+      "replace": {"amenity": "community_centre", "community_centre:for": "juvenile"}
+    },
+    {
+      "old": {"barrier": "curb"},
+      "replace": {"barrier": "kerb"}
+    },
+    {
+      "old": {"barrier": "entrance"},
+      "replace": {"entrance": "*"}
+    },
+    {
+      "old": {"barrier": "wire_fence"},
+      "replace": {"barrier": "fence", "fence_type": "chain"}
+    },
+    {
+      "old": {"barrier": "wood_fence"},
+      "replace": {"barrier": "fence", "fence_type": "wood"}
+    },
+    {
+      "old": {"building": "entrance"},
+      "replace": {"entrance": "*"}
+    },
+    {
+      "old": {"building": "family_house"},
+      "replace": {"building": "house"}
+    },
+    {
+      "old": {"building": "home"},
+      "replace": {"building": "house"}
+    },
+    {
+      "old": {"building": "household"},
+      "replace": {"building": "house"}
+    },
+    {
+      "old": {"building:color": "*"},
+      "replace": {"building:colour": "$1"}
+    },
+    {
+      "old": {"building:roof:colour": "*"},
+      "replace": {"roof:colour": "$1"}
+    },
+    {
+      "old": {"building:type": "*"},
+      "replace": {"building": "$1"}
+    },
+    {
+      "old": {"color": "*"},
+      "replace": {"colour": "$1"}
+    },
+    {
+      "old": {"craft": "glass"},
+      "replace": {"craft": "glaziery"}
+    },
+    {
+      "old": {"crossing": "zebra"},
+      "replace": {"crossing": "marked"}
+    },
+    {
+      "old": {"cuisine": "gluten-free"},
+      "replace": {"diet:gluten_free": "yes"}
+    },
+    {
+      "old": {"cuisine": "halal"},
+      "replace": {"diet:halal": "yes"}
+    },
+    {
+      "old": {"cuisine": "kosher"},
+      "replace": {"diet:kosher": "yes"}
+    },
+    {
+      "old": {"cuisine": "vegan"},
+      "replace": {"diet:vegan": "yes"}
+    },
+    {
+      "old": {"cuisine": "vegetarian"},
+      "replace": {"diet:vegetarian": "yes"}
+    },
+    {
+      "old": {"curb": "*"},
+      "replace": {"kerb": "$1"}
+    },
+    {
+      "old": {"drinkable": "*"},
+      "replace": {"drinking_water": "$1"}
+    },
+    {
+      "old": {"dropped_kerb": "*"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"escalator": "*"},
+      "replace": {"highway": "steps", "conveying": "$1"}
+    },
+    {
+      "old": {"fenced": "yes"},
+      "replace": {"barrier": "fence"}
+    },
+    {
+      "old": {"footway": "both"},
+      "replace": {"sidewalk": "both"}
+    },
+    {
+      "old": {"footway": "crossing", "highway": "cycleway"},
+      "replace": {"cycleway": "crossing", "highway": "cycleway"}
+    },
+    {
+      "old": {"footway": "left"},
+      "replace": {"sidewalk": "left"}
+    },
+    {
+      "old": {"footway": "no"},
+      "replace": {"sidewalk": "no"}
+    },
+    {
+      "old": {"footway": "none"},
+      "replace": {"sidewalk": "no"}
+    },
+    {
+      "old": {"footway": "right"},
+      "replace": {"sidewalk": "right"}
+    },
+    {
+      "old": {"footway": "separate"},
+      "replace": {"sidewalk": "separate"}
+    },
+    {
+      "old": {"highway": "abandoned"},
+      "replace": {"abandoned:highway": "*"}
+    },
+    {
+      "old": {"highway": "bridleway", "horse": "no"},
+      "replace": {"highway": "path", "horse": "no"}
+    },
+    {
+      "old": {"highway": "cycleway", "bicycle": "no"},
+      "replace": {"highway": "path", "bicycle": "no"}
+    },
+    {
+      "old": {"highway": "footway", "foot": "no"},
+      "replace": {"highway": "path", "foot": "no"}
+    },
+    {
+      "old": {"highway": "ford"},
+      "replace": {"ford": "*"}
+    },
+    {
+      "old": {"highway": "no"}
+    },
+    {
+      "old": {"highway": "platform"},
+      "replace": {"bus": "yes", "public_transport": "platform"}
+    },
+    {
+      "old": {"highway": "stile"},
+      "replace": {"barrier": "stile"}
+    },
+    {
+      "old": {"highway": "incline"},
+      "replace": {"highway": "road", "incline": "up"}
+    },
+    {
+      "old": {"highway": "incline_steep"},
+      "replace": {"highway": "road", "incline": "up"}
+    },
+    {
+      "old": {"highway": "unsurfaced"},
+      "replace": {"highway": "road", "surface": "unpaved"}
+    },
+    {
+      "old": {"kerb": "dropped"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"kerb": "flat"},
+      "replace": {"kerb": "flush"}
+    },
+    {
+      "old": {"landuse": "conservation"},
+      "replace": {"boundary": "protected_area"}
+    },
+    {
+      "old": {"landuse": "farm"},
+      "replace": {"landuse": "farmland"}
+    },
+    {
+      "old": {"landuse": "field"},
+      "replace": {"landuse": "farmland"}
+    },
+    {
+      "old": {"landuse": "basin"},
+      "replace": {"natural": "water", "water": "basin"}
+    },
+    {
+      "old": {"landuse": "pond"},
+      "replace": {"natural": "water", "water": "pond"}
+    },
+    {
+      "old": {"landuse": "reservoir"},
+      "replace": {"natural": "water", "water": "reservoir"}
+    },
+    {
+      "old": {"landuse": "wood"},
+      "replace": {"natural": "wood"}
+    },
+    {
+      "old": {"leisure": "beach"},
+      "replace": {"natural": "beach"}
+    },
+    {
+      "old": {"leisure": "club"},
+      "replace": {"club": "*"}
+    },
+    {
+      "old": {"leisure": "video_arcade"},
+      "replace": {"leisure": "amusement_arcade"}
+    },
+    {
+      "old": {"man_made": "cut_line"},
+      "replace": {"man_made": "cutline"}
+    },
+    {
+      "old": {"man_made": "jetty"},
+      "replace": {"highway": "footway", "man_made": "pier"}
+    },
+    {
+      "old": {"man_made": "mdf"},
+      "replace": {"telecom": "exchange"}
+    },
+    {
+      "old": {"man_made": "MDF"},
+      "replace": {"telecom": "exchange"}
+    },
+    {
+      "old": {"man_made": "water_tank"},
+      "replace": {"man_made": "storage_tank", "content": "water"}
+    },
+    {
+      "old": {"man_made": "well"},
+      "replace": {"man_made": "water_well"}
+    },
+    {
+      "old": {"man_made": "winery"},
+      "replace": {"craft": "winery"}
+    },
+    {
+      "old": {"memorial": "plate"},
+      "replace": {"memorial": "plaque"}
+    },
+    {
+      "old": {"mining_resource": "*"},
+      "replace": {"resource": "$1"}
+    },
+    {
+      "old": {"natural": "marsh"},
+      "replace": {"natural": "wetland", "wetland": "marsh"}
+    },
+    {
+      "old": {"natural": "waterfall"},
+      "replace": {"waterway": "waterfall"}
+    },
+    {
+      "old": {"office": "real_estate"},
+      "replace": {"office": "estate_agent"}
+    },
+    {
+      "old": {"place_name": "*"},
+      "replace": {"name": "$1"}
+    },
+    {
+      "old": {"pole": "transition"},
+      "replace": {"location:transition": "yes"}
+    },
+    {
+      "old": {"postcode": "*"},
+      "replace": {"addr:postcode": "$1"}
+    },
+    {
+      "old": {"power": "busbar"},
+      "replace": {"power": "line", "line": "busbar"}
+    },
+    {
+      "old": {"power": "sub_station"},
+      "replace": {"power": "substation"}
+    },
+    {
+      "old": {"power": "underground_cable"},
+      "replace": {"power": "cable", "location": "underground"}
+    },
+    {
+      "old": {"power_source": "*"},
+      "replace": {"generator:source": "$1"}
+    },
+    {
+      "old": {"power_rating": "*"},
+      "replace": {"generator:output": "$1"}
+    },
+    {
+      "old": {"roof:color": "*"},
+      "replace": {"roof:colour": "$1"}
+    },
+    {
+      "old": {"route": "ncn"},
+      "replace": {"route": "bicycle", "network": "ncn"}
+    },
+    {
+      "old": {"shop": "adult"},
+      "replace": {"shop": "erotic"}
+    },
+    {
+      "old": {"shop": "antique"},
+      "replace": {"shop": "antiques"}
+    },
+    {
+      "old": {"shop": "auto_parts"},
+      "replace": {"shop": "car_parts"}
+    },
+    {
+      "old": {"shop": "baby"},
+      "replace": {"shop": "baby_goods"}
+    },
+    {
+      "old": {"shop": "baby_care"},
+      "replace": {"shop": "baby_goods"}
+    },
+    {
+      "old": {"shop": "bags"},
+      "replace": {"shop": "bag"}
+    },
+    {
+      "old": {"shop": "betting"},
+      "replace": {"shop": "bookmaker"}
+    },
+    {
+      "old": {"shop": "boutique"},
+      "replace": {"shop": "clothes"}
+    },
+    {
+      "old": {"shop": "dive"},
+      "replace": {"shop": "scuba_diving"}
+    },
+    {
+      "old": {"shop": "fashion"},
+      "replace": {"shop": "clothes"}
+    },
+    {
+      "old": {"shop": "fish"},
+      "replace": {"shop": "seafood"}
+    },
+    {
+      "old": {"shop": "fishmonger"},
+      "replace": {"shop": "seafood"}
+    },
+    {
+      "old": {"shop": "furnace"},
+      "replace": {"shop": "fireplace"}
+    },
+    {
+      "old": {"shop": "gallery"},
+      "replace": {"shop": "art"}
+    },
+    {
+      "old": {"shop": "lingerie"},
+      "replace": {"shop": "clothes", "clothes": "underwear"}
+    },
+    {
+      "old": {"shop": "luggage"},
+      "replace": {"shop": "bag"}
+    },
+    {
+      "old": {"shop": "moneylender"},
+      "replace": {"shop": "money_lender"}
+    },
+    {
+      "old": {"shop": "organic"},
+      "replace": {"shop": "supermarket", "organic": "only"}
+    },
+    {
+      "old": {"shop": "perfume"},
+      "replace": {"shop": "perfumery"}
+    },
+    {
+      "old": {"shop": "real_estate"},
+      "replace": {"office": "estate_agent"}
+    },
+    {
+      "old": {"shop": "tickets"},
+      "replace": {"shop": "ticket"}
+    },
+    {
+      "old": {"shop": "underwear"},
+      "replace": {"shop": "clothes", "clothes": "underwear"}
+    },
+    {
+      "old": {"shop": "winery"},
+      "replace": {"craft": "winery"}
+    },
+    {
+      "old": {"sloped_curb": "0"},
+      "replace": {"kerb": "flush"}
+    },
+    {
+      "old": {"sloped_curb": "0.00"},
+      "replace": {"kerb": "flush"}
+    },
+    {
+      "old": {"sloped_curb": "0.01"},
+      "replace": {"kerb": "lowered", "kerb:height": "1 cm"}
+    },
+    {
+      "old": {"sloped_curb": "0.02"},
+      "replace": {"kerb": "lowered", "kerb:height": "2 cm"}
+    },
+    {
+      "old": {"sloped_curb": "0.03"},
+      "replace": {"kerb": "lowered", "kerb:height": "3 cm"}
+    },
+    {
+      "old": {"sloped_curb": "at_grade"},
+      "replace": {"kerb": "flush"}
+    },
+    {
+      "old": {"sloped_curb": "both"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"sloped_curb": "flush"},
+      "replace": {"kerb": "flush"}
+    },
+    {
+      "old": {"sloped_curb": "low"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"sloped_curb": "no"},
+      "replace": {"kerb": "raised"}
+    },
+    {
+      "old": {"sloped_curb": "yes"},
+      "replace": {"kerb": "lowered"}
+    },
+    {
+      "old": {"tourism": "bed_and_breakfast"},
+      "replace": {"tourism": "guest_house"}
+    },
+    {
+      "old": {"type": "broad_leaved"},
+      "replace": {"leaf_type": "broadleaved"}
+    },
+    {
+      "old": {"type": "conifer"},
+      "replace": {"leaf_type": "needleleaved"}
+    },
+    {
+      "old": {"type": "deciduous"},
+      "replace": {"leaf_cycle": "deciduous"}
+    },
+    {
+      "old": {"water": "intermittent"},
+      "replace": {"natural": "water", "intermittent": "yes"}
+    },
+    {
+      "old": {"water": "riverbank"},
+      "replace": {"natural": "water", "water": "river"}
+    },
+    {
+      "old": {"water": "salt"},
+      "replace": {"natural": "water", "salt": "yes"}
+    },
+    {
+      "old": {"water": "tidal"},
+      "replace": {"natural": "water", "tidal": "yes"}
+    },
+    {
+      "old": {"waterway": "aqueduct"},
+      "replace": {"waterway": "canal", "bridge": "aqueduct"}
+    },
+    {
+      "old": {"waterway": "lock"},
+      "replace": {"waterway": "canal", "lock": "yes"}
+    },
+    {
+      "old": {"waterway": "riverbank"},
+      "replace": {"natural": "water", "water": "river"}
+    },
+    {
+      "old": {"wood": "coniferous"},
+      "replace": {"leaf_type": "needleleaved"}
+    },
+    {
+      "old": {"wood": "deciduous"},
+      "replace": {"leaf_cycle": "deciduous"}
+    },
+    {
+      "old": {"wood": "evergreen"},
+      "replace": {"leaf_cycle": "evergreen"}
+    },
+    {
+      "old": {"wood": "mixed"},
+      "replace": {"leaf_cycle": "mixed", "leaf_type": "mixed"}
+    }
+  ]
+}

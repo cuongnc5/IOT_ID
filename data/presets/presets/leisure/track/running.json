@@ -1,0 +1,43 @@
+{
+    "icon": "maki-pitch",
+    "fields": [
+        "surface",
+        "sport_racing_nonmotor",
+        "lit",
+        "width",
+        "lanes"
+    ],
+    "geometry": [
+        "point",
+        "line",
+        "area"
+    ],
+    "tags": {
+        "leisure": "track",
+        "sport": "running"
+    },
+    "addTags": {
+        "leisure": "track",
+        "sport": "running",
+        "highway": "footway"
+    },
+    "removeTags": {
+        "leisure": "track",
+        "sport": "running",
+        "highway": "footway"
+    },
+    "terms": [
+        "athletics track",
+        "decathlon",
+        "foot race",
+        "long distance running",
+        "marathon",
+        "middle distance running",
+        "racetrack",
+        "running",
+        "sprint",
+        "track",
+        "walking"
+    ],
+    "name": "Running Track"
+}

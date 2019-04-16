@@ -1,0 +1,14 @@
+{
+    "icon": "fas-space-shuttle",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "shop": "toys"
+    },
+    "terms": [
+        "games"
+    ],
+    "name": "Toy Store"
+}
