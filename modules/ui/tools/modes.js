@@ -50,6 +50,7 @@ export function uiToolOldDrawModes(context) {
         }),
         modeLoadPoint(context),
         modeLoadArea(context),
+        modeLoadLine(context),
         modeLoadMultiArea(context),
         modeAddNote(context),
     ];
