@@ -1,0 +1,29 @@
+<html>
+
+<head>
+<style>
+#panorama {
+  width: 800px;
+  height: 400px;
+}
+</style>
+<link type="text/css" rel="Stylesheet" href="build/pannellum.css"/>
+<script src="src/js/pannellum.js"></script>
+<script src="src/js/libpannellum.js"></script>
+</head>
+
+<body>
+<div id="panorama"></div>
+<script>
+var viewer = pannellum.viewer('panorama', {   
+    "panorama": "charles-street.jpg",
+    "haov": 149.87,
+    "vaov": 54.15,
+    "vOffset": 1.17,
+    "minPitch": -25.91,
+    "maxPitch": 28.25,
+    "minYaw": -74.94,
+    "maxYaw": 74.94
+});
+</script>
+</body>

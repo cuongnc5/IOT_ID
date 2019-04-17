@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Roll</title>
+
+      <link rel="stylesheet" href="src/css/pannellum.css"> 
+      <script type="text/javascript" src="src/js/libpannellum.js"></script>
+      <script type="text/javascript" src="src/js/pannellum.js"></script>
+<!--
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.2/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.2/pannellum.js"></script>
+-->
+    <style>
+    #panorama {
+        width: 600px;
+        height: 400px;
+    }
+
+	button {background-color: #F0E4D3; color: #890605}
+    </style>
+</head>
+<body>
+<button id="foyer" style="position:absolute; top:10px;left:625px;" onclick="viewer.loadScene('foyer',-0.28,-146,87)">Foyer</button>
+<button id="backyard2" style="position:absolute; top:310px;left:625px;" onclick="viewer.loadScene('backyard2',-2.41,-172.13,90)">Backyard</button>
+
+<div id="panorama"></div>
+
+<script>
+viewer = pannellum.viewer('panorama', {
+    "default": {
+		"type": "equirectangular",
+		"hfov": 87.21,
+		"pitch": -0.28,
+		"yaw": -146.87,
+		"panorama": "foyer.jpg",
+		"title": "Title",
+		"author": "Author",
+		"autoLoad": true,
+		"hotSpotDebug": true,
+		  "hotSpots": [
+                {
+					"yaw": 24.85,
+					"pitch": 1.48,
+					"type": "scene",
+					"text": "Backyard",
+					"sceneId": "backyard2"
+                }
+            ]
+	},
+	"scenes": {
+      "foyer": {
+          "title": "Foyer",
+          "hfov": 87.21,
+          "yaw": -144.65,
+          "pitch": 2.34,
+          "type": "equirectangular",
+          "panorama": "foyer.jpg",
+          "compass": true,
+          "northOffset": 140,
+		  "hotSpots": [
+                {
+					"yaw": 24.85,
+					"pitch": 1.48,
+					"type": "scene",
+					"text": "Backyard",
+					"sceneId": "backyard2"
+                }
+            ]
+      },
+      "backyard2": {
+          "title": "Backyard",
+          "hfov": 90,
+          "yaw": -172.13,
+          "pitch": -2.41,
+          "type": "equirectangular",
+          "panorama": "backyard2.jpg",
+          "compass": true,
+          "northOffset": 140
+      }
+   }
+
+ });
+</script>
+
+</body>
+</html>

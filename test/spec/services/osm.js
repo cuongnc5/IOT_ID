@@ -4,9 +4,9 @@ describe('iD.serviceOsm', function () {
     function login() {
         if (!connection) return;
         connection.switch({
-            urlroot: 'http://www.editor-dev.map4d.vn',
-            oauth_consumer_key: 'h70YnVID6anoA1F8tU5WkYcx1wua4oUrQpClcc4e',
-            oauth_secret: 'UF2iTsAuMxBFEzZWYAdLpb27YZAgW0tpULHfpCEi',
+            urlroot: 'http://localhost:3000/',
+            oauth_consumer_key: '5AXJLelCRS49ULQp6615RIIqftBkQ2h51BhdTXuR',
+            oauth_secret: 'ETgsqMTKmKvU6YVVGjl7en1UKobSNnikBoxuftSf',
             oauth_token: 'foo',
             oauth_token_secret: 'foo'
         });
@@ -29,7 +29,7 @@ describe('iD.serviceOsm', function () {
         server = sinon.fakeServer.create();
         context = iD.coreContext();
         connection = context.connection();
-        connection.switch({ urlroot: 'http://www.editor-dev.map4d.vn' });
+        connection.switch({ urlroot: 'http://www.openstreetmap.org' });
         connection.reset();
         spy = sinon.spy();
     });
@@ -48,7 +48,7 @@ describe('iD.serviceOsm', function () {
     });
 
     it('allows secure connections', function () {
-        connection.switch({ urlroot: 'http://www.editor-dev.map4d.vn'});
+        connection.switch({ urlroot: 'https://www.openstreetmap.org'});
         expect(connection.changesetURL(2)).to.match(/^https:/);
     });
 

@@ -16,7 +16,7 @@ export function modeLoadLine(context) {
         button: 'vertex',
         title: 'Load Line',
         description: 'Load Line',
-        key: '3'
+        key: '6'
     };
 
     var behavior = behaviorAddWay(context)

@@ -17,7 +17,7 @@ export function modeLoadArea(context) {
         button: 'load-area',
         title:'Load area',
         description:'Load area from json file',
-        key: '6'
+        key: '5'
     };
 
     var behavior = behaviorAddWay(context)

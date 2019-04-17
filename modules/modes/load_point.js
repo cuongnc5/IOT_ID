@@ -11,7 +11,7 @@ export function modeLoadPoint(context) {
         button: 'load-point',
         title: 'Load points',
         description: 'Load points from json file',
-        key: '7'
+        key: '4'
     };
 
     var behavior = behaviorDraw(context)

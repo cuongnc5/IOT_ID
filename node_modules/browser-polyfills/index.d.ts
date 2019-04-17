@@ -1,0 +1,2 @@
+
+declare module 'browser-polyfills';

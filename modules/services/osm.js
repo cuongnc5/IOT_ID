@@ -17,11 +17,11 @@ import {
 
 var tiler = utilTiler();
 var dispatch = d3_dispatch('authLoading', 'authDone', 'change', 'loading', 'loaded', 'loadedNotes');
-var urlroot = 'http://www.editor-dev.map4d.vn';
+var urlroot = 'https://www.openstreetmap.org';
 var oauth = osmAuth({
     url: urlroot,
-    oauth_consumer_key: 'h70YnVID6anoA1F8tU5WkYcx1wua4oUrQpClcc4e',
-    oauth_secret: 'UF2iTsAuMxBFEzZWYAdLpb27YZAgW0tpULHfpCEi',
+    oauth_consumer_key: '5A043yRSEugj4DJ5TljuapfnrflWDte8jTOcWLlT',
+    oauth_secret: 'aB3jKq1TRsCOUrfOIZ6oQMEDmv2ptV76PA54NGLL',
     loading: authLoading,
     done: authDone
 });
