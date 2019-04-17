@@ -4,9 +4,9 @@ describe('iD.serviceOsm', function () {
     function login() {
         if (!connection) return;
         connection.switch({
-            urlroot: 'http://localhost:3000/',
-            oauth_consumer_key: '5AXJLelCRS49ULQp6615RIIqftBkQ2h51BhdTXuR',
-            oauth_secret: 'ETgsqMTKmKvU6YVVGjl7en1UKobSNnikBoxuftSf',
+            urlroot: 'http://editor-test.map4d.vn',
+            oauth_consumer_key: 'jfCFMtjILEpbdo8P70daIGfRuA1Kjb8NNAo6NHJR',
+            oauth_secret: 'KwVPHsyCl0cWAyTh8E7olF0mG5R8xUFaAaUzffz4',
             oauth_token: 'foo',
             oauth_token_secret: 'foo'
         });
